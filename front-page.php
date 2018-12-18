@@ -1,0 +1,50 @@
+<?php get_header(); ?>
+<div class="jumbotron jumbotron-fluid" id="header">
+  <div id="header-container">
+    <div class="d-flex justify-content-center heading">
+      <h4 id="centered"><?php echo bloginfo('description') ?></h4>
+    </div>
+    <img src= "<?php echo get_template_directory_uri() . '/img/blurred-background-close-up-coffee-cup-908284.jpg' ?>" 
+    alt="Apple laptop with coffee mug" id="header-image">
+  </div>
+</div>
+<div class="jumbotron jumbotron-fluid bg-dark text-white">
+  <div class="container">
+    <h1 class="display-4 d-flex justify-content-center heading">Design</h1>
+    <p>My web designs focus on content and purpose.
+    Every element must provide information while at the same time
+    be meaningful in a clear and concise way.
+    </p>
+  </div>
+</div>
+<div class="jumbotron jumbotron-fluid" id="services">
+<h1 class="display-4 d-flex justify-content-center heading">Services</h1>
+<div class="container" id="services_container">
+  <div class="row">
+    <div class="card col-lg-4 col-md-12" style="width: 18rem;" id="service_card">
+        <img class="card-img-top" id="service_image" src="<?php echo get_template_directory_uri() . '/img/business-cellphone-communication-248512.jpg' ?>" alt="cellphone communication">
+      <div class="card-body">
+        <p class="card-text">Websites that work on all devices</p>
+      </div>
+    </div>
+    <div class="card col-lg-4 col-md-12" style="width: 18rem;" id="service_card">
+        <img class="card-img-top" id="service_image" src="<?php echo get_template_directory_uri() . '/img/business-close-up-commerce-266176.jpg' ?>">
+      <div class="card-body">
+        <p class="card-text">Search Engine Optimization that increases web traffic to your site</p>
+      </div>
+    </div>
+      <div class="card col-lg-4 col-md-12" style="width: 18rem;" id="service_card">
+        <img class="card-img-top" id="service_image" src="<?php echo get_template_directory_uri() . '/img/bandwidth-close-up-computer-1148820.jpg' ?> ?>">
+      <div class="card-body">
+        <p class="card-text">Proper hosting so that your site can handle the traffic</p>
+      </div>
+    </div> 
+  </div>  
+</div>
+<div class="jumbotron jumbotron-fluid bg-primary text-white">
+  <h1 class="display-4 d-flex justify-content-center heading" id="review_title">Review</h1>
+
+
+</div>
+
+<?php get_footer(); ?>
