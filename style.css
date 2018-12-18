@@ -1,118 +1,125 @@
 /*
 Theme Name: portfolio theme
 Author: Thomas Bockhorn
-Description: This is the main theme for Bockhorn Development.
+Description: This is the main theme for the company Tecktonet.
 Version: 1.0.0
 */
 html,
 body {
-    font-family: 'Source Sans Pro', sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
 }
 
 /*heading */
 @media screen and (min-width: 300px) {
-    #centered {
-        display: none;
-    }
+  #centered {
+    display: none;
+  }
 }
 
 @media screen and (min-width: 700px) {
-    #centered {
-        display: block;
-    }
+  #centered {
+    display: block;
+  }
 }
 
 #header {
-    position: relative;
-    padding: 0;
+  position: relative;
+  padding: 0;
 }
 
 #header-image {
-    width: 100%;
+  width: 100%;
 }
 
 #header-container {
-    width: 100%;
-    padding: 0;
-    margin: 0;
+  width: 100%;
+  padding: 0;
+  margin: 0;
 }
 
 #centered {
-    position: absolute;
-    top: 20%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 150%;
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 150%;
 }
 
-/*Header Menu styling*/
+/*Nav bar*/
 a {
-    color: black;
+  color: white;
+}
+
+#home {
+  color: white;
 }
 
 /*Footer Links*/
 #footer-links {
-    list-style-type: none;
+  list-style-type: none;
 }
 
+#footer-tags a {
+  color: black;
+}
 
 /*Services description */
 @media screen and (min-width: 320px) {
-    #services_container {
-        padding-left: 2em;
-    }
+  #services_container {
+    padding-left: 2em;
+  }
 }
 
 @media screen and (min-width: 360px) {
-    #services_container {
-        padding-left: 3em;
-    }
+  #services_container {
+    padding-left: 3em;
+  }
 }
 
 @media screen and (min-width: 375px) {
-    #services_container {
-        padding-left: 4em;
-    }
+  #services_container {
+    padding-left: 4em;
+  }
 }
 
 @media screen and (min-width: 411px) {
-    #services_container {
-        padding-left: 5em;
-    }
+  #services_container {
+    padding-left: 5em;
+  }
 }
 
 @media screen and (min-width: 767px) {
-    #services_container {
-        padding-left: 2em;
-    }
+  #services_container {
+    padding-left: 2em;
+  }
 }
 
 @media screen and (min-width: 1024px) {
-    #services_container {
-        padding: auto;
-    }
+  #services_container {
+    padding: auto;
+  }
 }
 
 #caption {
-    color: black;
-    opacity: 1;
+  color: black;
+  opacity: 1;
 }
 
 #services {
-    background: white;
+  background: white;
 }
 
 #service_image {
-    width: 100%;
+  width: 100%;
 }
 
 #service_card {
-    padding: 0;
-    border: 0;
-    padding: 1em;
+  padding: 0;
+  border: 0;
+  padding: 1em;
 }
 
 /*Reviews */
 #review_title {
-    color: white;
+  color: white;
 }

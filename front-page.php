@@ -2,7 +2,7 @@
 <div class="jumbotron jumbotron-fluid" id="header">
   <div id="header-container">
     <div class="d-flex justify-content-center heading">
-      <h4 id="centered"><?php echo bloginfo('description') ?></h4>
+    <h4 id="centered"><?php echo bloginfo('description') ?></h4>
     </div>
     <img src= "<?php echo get_template_directory_uri() . '/img/blurred-background-close-up-coffee-cup-908284.jpg' ?>" 
     alt="Apple laptop with coffee mug" id="header-image">
@@ -11,7 +11,7 @@
 <div class="jumbotron jumbotron-fluid bg-dark text-white">
   <div class="container">
     <h1 class="display-4 d-flex justify-content-center heading">Design</h1>
-    <p>My web designs focus on content and purpose.
+    <p>My web designs focuses on content and purpose.
     Every element must provide information while at the same time
     be meaningful in a clear and concise way.
     </p>

@@ -9,7 +9,7 @@
             <div>(256)679-6197</div>
             <?php echo date('Y'); ?>
         </div>
-        <div class="col-lg-2">
+        <div class="col-lg-2" id="footer-tags">
             <?php
             wp_nav_menu(array(
                 'theme_location' => 'footerLocationOne',
@@ -17,7 +17,7 @@
             ));
             ?>
         </div>
-        <div class="col-lg-2">
+        <div class="col-lg-2" id="footer-tags">
         <?php
         wp_nav_menu(array(
             'theme_location' => 'footerLocationTwo',
