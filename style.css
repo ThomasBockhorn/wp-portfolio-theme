@@ -54,13 +54,23 @@ a {
   color: white;
 }
 
-/*Footer Links*/
+/*Footer*/
+@media screen and (max-width: 768px) {
+  #footer-tags {
+    display: none;
+  }
+}
+
 #footer-links {
   list-style-type: none;
 }
 
 #footer-tags a {
   color: black;
+}
+
+#social-media {
+  margin-top: 1em;
 }
 
 /*Services description */

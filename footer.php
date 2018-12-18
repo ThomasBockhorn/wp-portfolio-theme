@@ -1,8 +1,8 @@
 <!--The footer template-->
-<div class="jumbotron jumbotron-fluid sticky-bottom">
+<div class="footer navbar-fixed-bottom" id="footer-space">
   <div class="container">
     <div class="row">
-        <div class= "col-lg-4 col-md-12">
+        <div class= "col-lg-4 col-md-6">
             <h1 class="display-4"><?php echo get_bloginfo('name') ?></h1>
             <div>113 Sweet Hollow Way NW</div>
             <div>Madison, AL 35757</div>
@@ -25,7 +25,7 @@
         ));
         ?>
         </div>
-        <div class="col-lg-4 col-md-12">
+        <div class="col-lg-4 col-md-6" id="social-media">
             <?php echo do_shortcode('[DISPLAY_ULTIMATE_SOCIAL_ICONS]'); ?>
         </div>
     </div>
