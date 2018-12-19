@@ -11,10 +11,20 @@
 <div class="jumbotron jumbotron-fluid bg-dark text-white">
   <div class="container">
     <h1 class="display-4 d-flex justify-content-center heading">Design</h1>
-    <p>My web designs focuses on content and purpose.
-    Every element must provide information while at the same time
-    be meaningful in a clear and concise way.
-    </p>
+    <div class="container justify-content-center">
+      <div class="row" id="design-maxim">
+        <div class="col-lg-2"><img class="rounded" src="<?php echo get_template_directory_uri() . '/img/stones-801756_1920.jpg' ?>" alt="Stacked stones" width="150" height="150"></div>
+        <div class="col-lg-10" id="maxim"><p>Websites need a central simple focus.<p></div>
+      </div>
+      <div class="row" id="design-maxim">
+        <div class="col-lg-2"><img class="rounded" src="<?php echo get_template_directory_uri() . '/img/boat-1992136_1920.jpg' ?>" alt="Row boat in still water" width="150" height="150"></div>
+        <div class="col-lg-10" id="maxim"><p>Visuals are greatly enhanced by empty space.</p></div>
+      </div>
+      <div class="row" id="design-maxim">
+        <div class="col-lg-2"><img  class="rounded" src="<?php echo get_template_directory_uri() . '/img/birds-2037459_1920.png' ?>" alt="Birds perched on a tree at night time" width="150" height="150"></div>
+        <div class="col-lg-10" id="maxim"><p>The careful use of color brings emotions that engage the visual audience.</p></div>
+      </div>
+    </div>
   </div>
 </div>
 <div class="jumbotron jumbotron-fluid" id="services">
