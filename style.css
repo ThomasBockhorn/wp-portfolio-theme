@@ -42,7 +42,6 @@ body {
   top: 20%;
   left: 50%;
   transform: translate(-50%, -50%);
-  font-size: 150%;
 }
 
 /*Nav bar*/
@@ -148,7 +147,19 @@ a {
   color: white;
 }
 
+/*Blog*/
+.title-image {
+  width: 100%;
+  height: 20em;
+}
+
 /*Blog Posts*/
 .blog-posts a {
   color: black;
+}
+
+/*Blog and Project titles */
+.blog-title {
+  color: white;
+  font-size: 5em;
 }
