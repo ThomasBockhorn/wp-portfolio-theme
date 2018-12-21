@@ -22,7 +22,7 @@
       </div>
       <div class="row" id="design-maxim">
         <div class="col-lg-2"><img  class="rounded" src="<?php echo get_template_directory_uri() . '/img/birds-2037459_1920.png' ?>" alt="Birds perched on a tree at night time" width="150" height="150"></div>
-        <div class="col-lg-10" id="maxim"><p>The careful use of color brings emotions that engage the visual audience.</p></div>
+        <div class="col-lg-10" id="maxim"><p>The careful use of color brings emotions that engage the audience.</p></div>
       </div>
     </div>
   </div>

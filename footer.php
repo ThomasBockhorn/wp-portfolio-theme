@@ -1,5 +1,5 @@
 <!--The footer template-->
-<div class="footer navbar-fixed-bottom" id="footer-space">
+<div class="footer" id="footer-space">
   <div class="container">
     <div class="row">
         <div class= "col-lg-4 col-md-6">
@@ -7,7 +7,7 @@
             <div>113 Sweet Hollow Way NW</div>
             <div>Madison, AL 35757</div>
             <div>(256)679-6197</div>
-            <?php echo date('Y'); ?>
+            <div>ThomasBockhorn@Tecktonet.com</div>
         </div>
         <div class="col-lg-2" id="footer-tags">
             <?php
