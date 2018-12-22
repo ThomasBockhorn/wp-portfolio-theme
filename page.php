@@ -7,6 +7,20 @@
 </header>
 <div class="container">
     <?php
+    $theParent = wp_get_post_parent_id(get_the_ID(get_the_ID()));
+
+    if ($theParent) { ?>
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="<?php echo get_permalink($theParent); ?>"><?php echo get_the_title($theParent); ?></a></li>
+                    <li class="breadcrumb-item active" aria-current="page"><?php the_title(); ?></li>
+                </ol>
+            </nav>
+       <?php 
+    }
+    ?>
+    
+    <?php
     while (have_posts()) {
         the_post(); ?>
         <?php the_content(); ?> 
