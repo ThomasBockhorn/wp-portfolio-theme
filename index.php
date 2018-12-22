@@ -10,14 +10,14 @@
     while (have_posts()) {
         the_post(); ?>
     <div>
-        <h2 class="blog-posts"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
+        <h2 class="blog-posts links"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
     </div>
     <div>
         <p id="blog-project-info">Posted by <?php the_author(); ?> on <?php the_time('n.j.y'); ?></p>
     </div>
     <div>
         <?php the_excerpt(); ?>
-        <p><a class="btn btn-primary" href="<?php the_permalink(); ?>">Continue Reading &raquo;</a></p>
+        <p><a class="badge badge-primary" href="<?php the_permalink(); ?>">Continue Reading &raquo;</a></p>
     </div>
     <?php 
 }

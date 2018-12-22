@@ -6,6 +6,12 @@
     </div>
 </header>
 <div class="container">
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="#"><?php the_category('/ '); ?></a></li>
+            <li class="breadcrumb-item active" aria-current="page"><?php echo the_title(); ?></li>
+        </ol>
+    </nav>
     <?php
     while (have_posts()) {
         the_post(); ?>

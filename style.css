@@ -49,6 +49,11 @@ nav a {
   color: white;
 }
 
+#navbarNav:hover a {
+  text-decoration: none;
+  color: white;
+}
+
 #home {
   color: white;
 }
@@ -65,6 +70,11 @@ nav a {
 #maxim {
   font-size: 1.5em;
   margin-top: 1.5em;
+}
+
+/*Posts */
+.links:hover a {
+  text-decoration: none;
 }
 
 /*Footer*/
