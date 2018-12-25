@@ -26,14 +26,14 @@
     
     <!--This row creates the spacing needed for the content and child page navigation-->
     <div class="row">
-        <div class="col">
+        <div class="col-8">
             <?php
             while (have_posts()) {
                 the_post();
             }
             the_content(); ?> 
         </div>
-        
+
         <!--This is the navigation to the child page-->
         <?php
         $testArray = get_pages(array(
@@ -41,11 +41,11 @@
         ));
 
         if ($theParent or $testArray) { ?>
-        <div class="col" >
-            <nav class="container navbar-light bg-light">
-                <a class="navbar-brand" href="<?php echo get_the_permalink($theParent) ?>"><?php echo get_the_title($theParent); ?></a>
+        <div class="col-4" id="nav-win">
+            <nav class="container navbar-light bg-light" id="side-nav">
+                <a href="<?php echo get_the_permalink($theParent) ?>"><?php echo get_the_title($theParent); ?></a>
                 <hr>
-                <ul class="child-pages-links">
+                <ul id="child-pages-links">
                     <?php
 
                     if ($theParent) {

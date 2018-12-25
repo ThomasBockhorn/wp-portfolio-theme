@@ -9,6 +9,10 @@ body {
   font-family: "Source Sans Pro", sans-serif;
 }
 
+ul {
+  list-style: outside none none;
+}
+
 /*heading */
 @media screen and (min-width: 300px) {
   #centered {
@@ -78,8 +82,19 @@ nav a {
 }
 
 /*Links of child pages navigation*/
-.child-pages-links li a {
+#side-nav a {
   color: black;
+}
+
+#nav-win {
+  padding: 0;
+  text-align: center;
+}
+
+#child-pages-links {
+  margin-block-start: 0;
+  margin-block-end: 0;
+  padding-inline-start: 0;
 }
 
 /*Footer*/
