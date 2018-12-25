@@ -32,23 +32,38 @@
                 the_post();
             }
             the_content(); ?> 
-        </div class="col">
-            <!--This is the navigation to the child page-->
-            <div >
-                <nav class="container navbar-light bg-light">
-                    <a class="navbar-brand" href="<?php echo get_the_permalink($theParent) ?>"><?php echo get_the_title($theParent); ?></a>
-                    <hr>
-                    <div id="navbarNavAltMarkup">
-                        <div class="navbar-nav">
-                            <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
-                            <a class="nav-item nav-link" href="#">Features</a>
-                            <a class="nav-item nav-link" href="#">Pricing</a>
-                            <a class="nav-item nav-link disabled" href="#">Disabled</a>
-                        </div>
-                    </div>
-                </nav>
-            </div>
         </div>
+        
+        <!--This is the navigation to the child page-->
+        <?php
+        $testArray = get_pages(array(
+            'child_of' => get_the_ID()
+        ));
+
+        if ($theParent or $testArray) { ?>
+        <div class="col" >
+            <nav class="container navbar-light bg-light">
+                <a class="navbar-brand" href="<?php echo get_the_permalink($theParent) ?>"><?php echo get_the_title($theParent); ?></a>
+                <hr>
+                <ul class="child-pages-links">
+                    <?php
+
+                    if ($theParent) {
+                        $findChildren = $theParent;
+                    } else {
+                        $findChildren = get_the_id();
+                    }
+
+                    wp_list_pages(array(
+                        'title_li' => null,
+                        'child_of' => $findChildren
+                    ));
+                    ?>
+                </ul>
+            </nav>
+        </div>
+        <?php 
+    } ?>
     </div>     
 </div>
 <?php get_footer(); ?>

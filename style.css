@@ -77,6 +77,11 @@ nav a {
   text-decoration: none;
 }
 
+/*Links of child pages navigation*/
+.child-pages-links li a {
+  color: black;
+}
+
 /*Footer*/
 @media screen and (max-width: 768px) {
   #footer-tags {
