@@ -33,6 +33,7 @@ function theme_features()
 }
 add_action('after_setup_theme', 'theme_features');
 
+
 ?>
 
 
