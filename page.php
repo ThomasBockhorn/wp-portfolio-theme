@@ -31,7 +31,8 @@
             while (have_posts()) {
                 the_post();
             }
-            the_content(); ?> 
+            the_content();
+            ?> 
         </div>
 
         <!--This is the navigation to the child page-->
