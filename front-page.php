@@ -51,12 +51,4 @@
     </div> 
   </div>  
 </div>
-<div class="jumbotron jumbotron-fluid bg-primary text-white">
-  <h1 class="display-4 d-flex justify-content-center heading" id="review_title">Review</h1>
-  <?php
-  //Show three reviews in the front-page
-  comments_template();
-  ?>
-</div>
-
 <?php get_footer(); ?>

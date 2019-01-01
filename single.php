@@ -16,10 +16,16 @@
     while (have_posts()) {
         the_post(); ?>
         <h2><?php the_title(); ?></h2>
-        <?php 
-        the_content();
-        comments_template();
-        ?> 
+        <div class="container">
+            <p><?php the_content(); ?></p>
+            <hr>
+        <?php
+            // If comments are open or we have at least one comment, load up the comment template.
+        if (comments_open() || get_comments_number()) :
+            comments_template();
+        endif;
+        ?>
+        </div>
     <?php 
 } ?>
 </div>

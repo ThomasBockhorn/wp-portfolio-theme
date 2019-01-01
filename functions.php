@@ -32,6 +32,13 @@ function theme_features()
     add_theme_support('title-tag');
 }
 add_action('after_setup_theme', 'theme_features');
+
+/*This function will add HTML5 features*/
+add_theme_support('html5', array(
+    'comment-list',
+    'comment-form',
+    'search-form'
+))
 ?>
 
 
