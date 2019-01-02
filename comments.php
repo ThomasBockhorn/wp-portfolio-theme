@@ -18,26 +18,21 @@ if (post_password_required()) {
             );
             ?>
         </h2>
-        <ol class="comment-list">
-            
+        <ul class="comment-list">
             <?php 
             $args = array(
-                'walker' => null,
                 'max-depth' => 4,
-                'style' => 'div',
+                'style' => 'ul',
                 'type' => 'all',
                 'reply_text' => 'Enter your feedback',
-                'page' => '',
-                'per_page' => '',
                 'avatar_size' => 32,
                 'reverse_top_level' => false,
-                'reverse_children' => '',
                 'format' => 'html5',
                 'short_ping' => false,
                 'echo' => true
             );
             wp_list_comments($args) ?>
-        </ol>
+        </ul>
         <?php
         if (!comments_open() && get_comments_number()) : ?>
             <p class="no-comments"><?php esc_html_e('Comments are closed', 'portfoliotheme') ?></p>
