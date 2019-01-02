@@ -24,7 +24,7 @@ if (post_password_required()) {
             $args = array(
                 'walker' => null,
                 'max-depth' => 4,
-                'style' => 'ul',
+                'style' => 'div',
                 'type' => 'all',
                 'reply_text' => 'Enter your feedback',
                 'page' => '',

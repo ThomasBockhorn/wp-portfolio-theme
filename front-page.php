@@ -1,8 +1,8 @@
 <?php get_header(); ?>
 <div class="jumbotron jumbotron-fluid" id="header">
   <div id="header-container">
-    <div class="d-flex justify-content-center heading">
-    <h4 id="centered"><?php echo bloginfo('description') ?></h4>
+    <div class="d-flex justify-content-center heading" id="main-title">
+      <h4 id="web-title"><?php echo bloginfo('description') ?></h4>
     </div>
     <img class="img-responsive" src= "<?php echo get_template_directory_uri() . '/img/blurred-background-close-up-coffee-cup-908284.jpg' ?>" 
     alt="Apple laptop with coffee mug" id="header-image">

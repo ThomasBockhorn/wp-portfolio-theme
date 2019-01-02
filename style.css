@@ -14,19 +14,6 @@ ul {
 }
 
 /*heading */
-@media screen and (min-width: 300px) {
-  #centered {
-    display: none;
-  }
-}
-
-@media screen and (min-width: 700px) {
-  #centered {
-    display: block;
-    text-align: center;
-  }
-}
-
 #header {
   position: relative;
   padding: 0;
@@ -47,6 +34,22 @@ ul {
   top: 20%;
   left: 50%;
   transform: translate(-50%, -50%);
+  font-size: 3.5em;
+  text-align: center;
+}
+
+#main-title {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+@media screen and (max-width: 594px) {
+  #web-title {
+    display: none;
+  }
 }
 
 /*Nav bar*/
