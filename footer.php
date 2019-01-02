@@ -1,8 +1,8 @@
 <!--The footer template-->
 <div class="footer" id="footer-space">
-  <div class="container">
+  <div class="container" id="footer-address">
     <div class="row">
-        <div class= "col-lg-4 col-md-6">
+        <div class= "col-lg-4 col-md-12">
             <h1 class="display-4"><?php echo get_bloginfo('name') ?></h1>
             <div>113 Sweet Hollow Way NW</div>
             <div>Madison, AL 35757</div>
