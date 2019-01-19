@@ -44,7 +44,7 @@
       </div>
     </div>
       <div class="card col-lg-4 col-md-12" style="width: 18rem;" id="service_card">
-        <img class="card-img-top" id="service_image" src="<?php echo get_template_directory_uri() . '/img/bandwidth-close-up-computer-1148820.jpg' ?> ?>">
+        <img class="card-img-top" id="service_image" src="<?php echo get_template_directory_uri() . '/img/bandwidth-close-up-computer-1148820.jpg' ?>">
       <div class="card-body">
         <p class="card-text">Proper hosting so that your site can handle the traffic</p>
       </div>
