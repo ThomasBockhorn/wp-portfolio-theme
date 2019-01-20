@@ -67,28 +67,15 @@ nav a {
 }
 
 /*Design jumbotron*/
-#terminal,
+#terminal_icon,
 #maxim {
   margin-top: 2em;
   font-size: 1.5em;
 }
 
-#terminal {
-  text-align: right;
-}
-
-#maxim {
-  text-align: left;
-}
-
-#design-maxim {
-  margin-left: 14em;
-}
-
 .Design-subtitle {
   font-size: 1.5em;
 }
-
 
 /*Services information section*/
 #service_card {
