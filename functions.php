@@ -22,6 +22,13 @@ function google_fonts()
 }
 add_action('wp_enqueue_scripts', "google_fonts");
 
+//Gets font awesome icons
+function font_awesome()
+{
+    wp_enqueue_style("font_awesome", "//use.fontawesome.com/releases/v5.6.3/css/all.css");
+}
+add_action('wp_enqueue_scripts', "font_awesome");
+
 
 /*This function deals with features after setup*/
 function theme_features()
