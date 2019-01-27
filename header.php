@@ -11,6 +11,15 @@
   gtag('config', 'UA-133170645-1');
 </script>
 
+<!--adsence-->
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>
+  (adsbygoogle = window.adsbygoogle || []).push({
+    google_ad_client: "ca-pub-4162220607269796",
+    enable_page_level_ads: true
+  });
+</script>
+
     <meta charset="<?php bloginfo('charset'); ?>">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
