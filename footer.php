@@ -4,10 +4,8 @@
     <div class="row">
         <div class= "col-lg-4 col-md-12">
             <h1 class="display-4"><?php echo get_bloginfo('name') ?></h1>
-            <div>113 Sweet Hollow Way NW</div>
-            <div>Madison, AL 35757</div>
             <div>(256)679-6197</div>
-            <div>ThomasBockhorn@Tecktonet.com</div>
+            <div>Thomas.Bockhorn@Tecktonet.com</div>
         </div>
         <div class="col-lg-2" id="footer-tags">
             <?php
