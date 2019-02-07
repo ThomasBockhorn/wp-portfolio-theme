@@ -225,6 +225,12 @@ nav a {
   font-size: 5em;
 }
 
+@media screen and (max-width: 767px) {
+  .blog-title {
+    display: none;
+  }
+}
+
 #blog-project-info a {
   color: black;
 }
