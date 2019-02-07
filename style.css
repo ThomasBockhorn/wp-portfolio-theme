@@ -13,6 +13,11 @@ ul {
   list-style: outside none none;
 }
 
+/*nav */
+#nav {
+  background-color: black;
+}
+
 /*heading */
 #header {
   position: relative;
