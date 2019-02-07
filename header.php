@@ -28,7 +28,7 @@
 </head>
 <body <?php body_class(); ?>>
 <!--navbar template-->
-<nav class="navbar navbar-expand-lg navbar-light" id="nav">
+<nav class="navbar navbar-expand-lg" id="nav">
   <a id="home" class="navbar-brand" href="<?php echo site_url('/') ?>"><img src="<?php echo get_template_directory_uri() . '/img/Color-logo-with-background.png' ?>" alt="logo" width="300" height="50"></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
